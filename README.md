@@ -1,4 +1,5 @@
 📚 Library Management System
+
 📌 Project Description
 
 The Library Management System is a web-based application built using HTML, CSS, JavaScript, Python (Flask), and MySQL. It allows users to view, issue, and return books, while the admin can add and manage books and monitor issued records. The system stores all data securely in a MySQL database and connects the frontend with the backend using Flask APIs.
@@ -13,15 +14,12 @@ The Library Management System is a web-based application built using HTML, CSS, 
 
 Library-Management-System/
 │
-├── app.py                # Flask backend (server & API routes)
-├── database.sql          # MySQL database structure
-│
-├── index.html            # Login / Entry page
-├── admin.html            # Admin dashboard (main panel)
-├── user.html             # User panel (book issue/return)
-│
-└── README.md             # Project documentation
-
+├── app.py               # Flask backend (server & API routes)
+├── database.sql         # MySQL database structure
+├── index.html           # Login / Entry page
+├── admin.html           # Admin Dashboard (Main Panel)
+├── user.html            # User Panel (Book Issue / Return)
+├── README.md            # Project Documentation
 
 🖥️ Panels Information
 
