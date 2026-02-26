@@ -15,7 +15,7 @@ connection = pymysql.connect(
     password="AVNS_BlofLdxlzNhFNJScwuN",
     database="defaultdb",
     port=11195,
-    ssl={"ssl": {}}
+    ssl={"ca": "ca.pem"}
 )
 
 @app.route("/")
